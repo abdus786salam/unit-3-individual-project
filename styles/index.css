@@ -1,0 +1,76 @@
+header{
+    border-bottom: 1px solid gray;
+}
+*{
+    color: black;
+}
+#header_div{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin: 10px 60px;
+    
+}
+#header_div ~div:hover{
+color: aquamarine;
+}
+#header_div_right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid rebeccapurple; */
+}
+#globe{
+
+    margin-right: 10px;
+
+}
+#expedia-logo{
+    height: 28px;
+    width: 126px;
+}
+#header_div_left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  
+}
+a{
+    text-decoration: none;
+}
+#header_div_button{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#sign-in{
+    cursor: pointer;
+}
+#header_div_right_button{
+    position: relative;
+    /* top: 70px; */
+   
+}
+.dropdown-menu{
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: calc(100%+0.5rem);
+    background-color: white;
+    padding: .75rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0;
+    
+}
+.dropdown-menu>div{
+    margin-top: 10px;
+}
+.dropdown-menu>div:hover{
+    background-color:#e3e6e9;
+}
+ .dropdown-menu:focus{
+    opacity: 1;
+}
