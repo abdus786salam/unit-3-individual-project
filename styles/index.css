@@ -45,6 +45,7 @@ a{
     background-color: white;
     font-size: 16px;
     cursor: pointer;
+    padding: 10px;
 }
 #sign-in{
     cursor: pointer;
@@ -54,23 +55,25 @@ a{
     /* top: 70px; */
    
 }
-.dropdown-menu{
+.dropdown_menu{
     position: absolute;
     width: 300px;
     left: 0;
-    top: calc(100%+0.5rem);
+    /* top: calc(100%+0.5rem); */
     background-color: white;
-    padding: .75rem;
+    padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    opacity: 0;
+    border-radius: 10px;
+    line-height: 18px;
+   /* opacity: 1; */
+   display: none;
+   
     
 }
-.dropdown-menu>div{
-    margin-top: 10px;
+.dropdown_menu>div{
+    margin-top: 25px;
 }
-.dropdown-menu>div:hover{
+.dropdown_menu>div:hover{
     background-color:#e3e6e9;
 }
- .dropdown-menu:focus{
-    opacity: 1;
-}
+
