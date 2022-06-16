@@ -5,7 +5,7 @@ let navbar = ()=>{
        <a href="./index.html"><img id="expedia-logo" src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" alt=""></a> 
        <div id="header_div_right_button">
         <button id="header_div_button"><span>More travel</span> <i class="fa-solid fa-angle-down"></i></button>
-    
+        </div>
         <div class="dropdown_menu" >
             <div><i class="fa-solid fa-hotel"></i><a href="#">Stayes</a></div>
            <div><i class="fa-solid fa-plane-departure"></i><a href="#">Flight</a></div>
@@ -16,7 +16,7 @@ let navbar = ()=>{
            <div><a href="#">Groups & meetings</a></div>
            <div><a href="#">Mobile</a></div> 
         </div> 
-    </div>
+    
       
     </div>
     <div id="header_div_left">
@@ -27,18 +27,18 @@ let navbar = ()=>{
         <div>
             <a href="#">Trips</a>
         </div>
-        <div id="signin">
-            Sign in
+        <div id="signin">Sign in</div>
+            
             <div id="signin-info">
                 <div><h3>Members can access discounts and special features</h3></div>
-                <div ><a id="signin-button" href="">Sign in</a></div>
-                <div ><a id="account" href="#">Create a free account</a></div>
+                <div ><a id="signin-button" href="./login.html">Sign in</a></div>
+                <div ><a id="account" href="./signup.html">Create a free account</a></div>
                 <div><a href="#">List of favourites</a></div>
                 <div><a href="#">Expedia Rewards</a></div>
                 <hr>
                 <div><a href="#">Feedback</a></div>
             </div>
-        </div>
+        
     </div>
 </div>
 <hr>`

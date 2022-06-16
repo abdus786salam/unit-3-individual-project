@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/741636ab18.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="backbutton"><i class="fa-solid fa-arrow-left-long"></i></div>
+        <img src="https://www.expedia.co.in/_dms/interstitial/logo.svg?locale=en_GB&siteid=27" alt="">
+    </div>
+    <hr>
+    <form id="form">
+        <h1>Sign in</h1>
+        <div>
+            <input type="email" class="user_input" id="email" placeholder="Email address" required><br>
+            <br><input type="password" class="user_input" id="password" placeholder="Password" required><br>
+            <br><input type="checkbox" id="keep_signed"> <label>Keep me signed in</label><br>
+            <p>Selecting this checkbox will keep you signed into your account on this 
+                device until you sign out. Do not select this on shared devices.</p>
+            <p>By creating an account, I agree to the Expedia <a href="">Terms and Conditions,</a> 
+               <a href="">Privacy Statement</a>and <a href="">Expedia Rewards Terms and Conditions.</a></p>    
+            <button id="continue" class="user_input">Continue</button>    
+        </div>
+       
+        <div id="bottom_content">
+            <a href="#">Forgot password?</a>
+            <p>Don't have an account? <a href="./signup.html">Create one</a></p>
+            <div>or continue with</div>
+            <div id="bottom_image">
+                <img src="https://a.travel-assets.com/egds/marks/apple.svg" alt="">
+                <img src="https://a.travel-assets.com/egds/marks/facebook.svg" alt="">
+                <img src="https://a.travel-assets.com/egds/marks/google.svg" alt="">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+<script src="./scripts/login.js"></script>

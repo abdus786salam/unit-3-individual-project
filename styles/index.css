@@ -2,8 +2,10 @@
 *{
     color: black;
     font-family: 'Roboto', sans-serif;
-    /* -----------------Header Details-------------------- */
 }
+
+ /* -----------------Header Details-------------------- */
+
 #header_div{
     display: flex;
     justify-content: space-between;
@@ -54,12 +56,13 @@ a{
 .dropdown_menu{
     position: absolute;
     width: 300px;
-    left: 0;
+    top: 60px;
     padding: 10px 0;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     line-height: 18px;
+    z-index: 1;
    display: none;   
 }
 #signin-info>div,.dropdown_menu>div{
@@ -74,12 +77,14 @@ a{
 #signin-info{
     position: absolute;
     width: 300px;
-    left: -250px;
+    /* left: -250px; */
+    top: 60px;
     padding: 10px 0;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     line-height: 18px;
+    z-index: 1;
    display: none;
 }
 
@@ -104,6 +109,7 @@ a{
     width: 100%;
     height: 300px;
     gap: 2%;
+    background-color: #f8f5f4;
 }
 #footer-div>div{
     width: 18%;
@@ -133,6 +139,8 @@ a{
     font-size: 12px;
     text-align: center;
 }
+
+/* ----------------------body content--------------------- */
 #search-div{
     margin: 50px 70px;
     padding: 10px;
@@ -165,6 +173,9 @@ a{
 }
 #loation-list{
     display: none;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
 }
 #checkin-input{
     width: 200px;
@@ -172,12 +183,10 @@ a{
 #checkin-out{
     width: 200px;
 }
-#loation-list{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 10px;
-}
+
 #loation-list>div{
     margin-top: 15px;
+    cursor: pointer;
 }
 #checkbox{
     margin-top: 20px;
