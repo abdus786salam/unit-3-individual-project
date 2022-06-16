@@ -1,15 +1,14 @@
-header{
-    border-bottom: 1px solid gray;
-}
+
 *{
     color: black;
+    font-family: 'Roboto', sans-serif;
+    /* -----------------Header Details-------------------- */
 }
 #header_div{
     display: flex;
     justify-content: space-between;
     height: 60px;
-    margin: 10px 60px;
-    
+    margin: 10px 60px; 
 }
 #header_div ~div:hover{
 color: aquamarine;
@@ -19,7 +18,6 @@ color: aquamarine;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-    /* border: 1px solid rebeccapurple; */
 }
 #globe{
 
@@ -47,33 +45,250 @@ a{
     cursor: pointer;
     padding: 10px;
 }
-#sign-in{
+#signin{
     cursor: pointer;
 }
 #header_div_right_button{
     position: relative;
-    /* top: 70px; */
-   
 }
 .dropdown_menu{
     position: absolute;
     width: 300px;
     left: 0;
-    /* top: calc(100%+0.5rem); */
+    padding: 10px 0;
     background-color: white;
-    padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     line-height: 18px;
-   /* opacity: 1; */
+   display: none;   
+}
+#signin-info>div,.dropdown_menu>div{
+    padding: 15px; 
+}
+#signin-info>div:hover,.dropdown_menu>div:hover{
+    background-color:#e3e6e9;   
+}
+#signin{
+    position: relative;
+}
+#signin-info{
+    position: absolute;
+    width: 300px;
+    left: -250px;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    line-height: 18px;
    display: none;
-   
-    
-}
-.dropdown_menu>div{
-    margin-top: 25px;
-}
-.dropdown_menu>div:hover{
-    background-color:#e3e6e9;
 }
 
+#signin-button{
+ border-radius: 5px;
+ padding: 10px 100px;
+ background-color: #3762d8;
+ color: white;
+}
+#account{
+  
+ border-radius: 5px;
+ padding: 10px 40px;
+ color: #426cda;
+}
+/* -----------------Footer Details--------------- */
+
+#footer-div{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    gap: 2%;
+}
+#footer-div>div{
+    width: 18%;
+    height: 100%;
+    padding-left: 5px;
+}
+#footer-div li{
+    margin-bottom: 10px;
+
+}
+#footer-div>div>img{
+    margin-top: 15px;
+}
+#footer-div a{
+    color: #426cda;
+    font-size: 12px;
+}
+
+ #footer-div a:hover{
+    text-decoration: underline;
+   
+} 
+#security-img{
+    text-align: center;
+}
+#copy-right{
+    font-size: 12px;
+    text-align: center;
+}
+#search-div{
+    margin: 50px 70px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#search-div-ul{
+    display: flex;
+    gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+#search-div-ul a:hover{
+    border-bottom: 2px solid black;
+}
+#div-going-to{
+    height: 50px;
+}
+.div-date-input{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    padding: 0 10px;
+    
+}
+#search-div-find>div{
+    display: flex;
+    justify-content: space-around;
+}
+#loation-list{
+    display: none;
+}
+#checkin-input{
+    width: 200px;
+}
+#checkin-out{
+    width: 200px;
+}
+#loation-list{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+#loation-list>div{
+    margin-top: 15px;
+}
+#checkbox{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#search-button{
+    margin: 10px;
+    padding: 10px 50px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #3662d8;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 45%;
+    cursor: pointer;
+}
+
+#div-reward{
+    margin: 50px 70px;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    filter: brightness(50%);
+    background-size: cover;
+   background-image: url('https://a.travel-assets.com/travel-assets-manager/ux-887/Global-HP-Hero-928x398.jpg');
+
+}
+
+#div-reward>div{
+    height: 300px;
+    width: 500px;
+    margin: 20px ;
+    padding-top: 150px;
+}
+#div-reward>div{
+    color: white;
+}
+#div-reward>div>a{
+    /* border: 1px solid red; */
+    padding: 10px 50px;
+    background-color: #3762d8;
+    border-radius: 5px;
+}
+#travel-smarter{
+    margin: 50px 70px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+   background-image: url('https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg')
+}
+#app-details{
+    height: 320px;
+    margin: 50px 70px;
+    /* padding: 10px; */
+    display: flex;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#app-details>div:first-child{
+height: 100%;
+width: 30%;
+
+}
+#app-details>div>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+#app-details>div:last-child{
+/* border: 1px solid red; */
+width: 70%;
+display: flex;
+}
+#app-details>div:last-child>div:first-child{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 15px;
+}
+#app-details>div:last-child>div:last-child{
+    /* border: 1px solid red; */
+    width: 29%;
+    margin: 15px;
+}
+.div-input{
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    padding: 0 10px; 
+}
+#butten-get-app{
+    background-color: #3662d8;
+    color: white;
+    cursor: pointer;
+}
+#app-details>div>div> p:last-child{
+    font-size: 12px;
+}
+#qr-code{
+height: 60%;
+width: 100%;
+}
+#explore-expedia{
+   
+  text-align: center;
+}
+p{
+    font-size: 14px;
+    line-height: 18px;
+}
