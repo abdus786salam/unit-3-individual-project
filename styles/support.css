@@ -1,0 +1,67 @@
+#customer-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    border: 1px solid black;
+    background-image: url('https://lhpyc.com/wp-content/uploads/2020/04/4-Things-to-Know-Before-Sailing-in-South-Florida.jpg');
+}
+
+#input-search{
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    padding: 0 10px;
+    
+}
+#support{
+    background-color: #f8f5f4;
+    padding: 10px 100px;
+    /* height: 500px; */
+    display: flex;
+    gap: 20px;
+
+}
+#left{
+    width: 30%;
+    /* border: 1px solid black; */
+}
+#right{
+    width: 68%;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+}
+#customer-service{
+    background-color: white;
+    border: 0.1px solid gray;
+    width: 90%;
+    padding: 10px;
+
+}
+div>li{
+    margin-top: 20px;
+}
+div>li:hover{
+    color: cornflowerblue;
+}
+li>a{
+    color: blue;
+}
+#topic{
+    background-color: white;
+    /* border: .5px solid gray; */
+    width: 90%;
+    padding: 10px; 
+}
+i{
+    margin-right: 10px;
+}
+#topic>div{
+    display: flex;
+    border-bottom: .5px solid gray;
+    align-items: center;
+}
+#topic>div>a>h3,#topic>div>i{
+    color: blue;
+}

@@ -22,7 +22,7 @@ let navbar = ()=>{
     <div id="header_div_left">
         <div><i id="globe" class="fa-solid fa-globe"></i><span><a href="#">English</a></span></div>
         <div>
-            <a href="#">Support</a>
+            <a href="./support.html">Support</a>
         </div>
         <div>
             <a href="#">Trips</a>
